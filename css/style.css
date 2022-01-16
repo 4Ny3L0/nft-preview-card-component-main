@@ -16,6 +16,15 @@
   --regular: 400;
   --semi: 600;
 }
+html {
+  box-sizing: border-box;
+  font-size: 96.5%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 /*Attributtion classes*/
 .attribution {
   font-size: 11px;
@@ -23,4 +32,111 @@
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+/**/
+body {
+  background-color: var(--Very-dark-blue-BG);
+  margin: 0 auto;
+  color: var(--White);
+  width: 100%;
+}
+img {
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
+}
+p {
+  font-size: 18px;
+}
+.container {
+  padding: 1.5rem;
+  margin: 0 auto;
+}
+.card-container {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 1.5rem;
+  background-color: var(--Very-dark-blue-card);
+  border-radius: 1rem;
+  font-family: var(--family-outfit);
+  font-size: 1.2rem;
+}
+.card-container h2 {
+  margin: 0;
+}
+.card-container h2:hover {
+  color: var(--cyan);
+  cursor: pointer;
+}
+.card-container p {
+  color: var(--soft-blue);
+  margin-bottom: 0;
+  line-height: 2rem;
+}
+.NTF-img {
+  border-radius: 1rem;
+  margin-bottom: 1.5rem;
+}
+.card-container img:hover {
+  background-color: var(--cyan);
+  z-index: 2;
+  cursor: pointer;
+}
+
+.NTF-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  align-items: center;
+}
+.price {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.price p {
+  color: var(--cyan);
+  margin-left: 0.5rem;
+}
+.price img,
+.time-rest img {
+  width: 18px;
+  height: 18px;
+  margin-bottom: -5rem;
+}
+.time-rest {
+  display: flex;
+  align-items: baseline;
+}
+.time-rest p {
+  margin-left: 0.5rem;
+}
+.author-info {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+.author-info img {
+  max-width: 40px;
+  height: 40px;
+  border: solid 2px white;
+  border-radius: 50%;
+  margin: 0;
+}
+
+.author-info p {
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  color: var(--white);
+}
+
+.author-info p:hover {
+  color: var(--cyan);
+  cursor: pointer;
+}
+.creation {
+  color: var(--soft-blue);
 }
