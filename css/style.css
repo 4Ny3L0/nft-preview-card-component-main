@@ -1,0 +1,26 @@
+:root {
+  /*Primaries colors - Colores principales */
+  --soft-blue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+
+  /*Neutral colors - Colores neutrales*/
+  --Very-dark-blue-BG: hsl(217, 54%, 11%);
+  --Very-dark-blue-card: hsl(216, 50%, 16%);
+  --Very-dark-blue-line: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+
+  /*fonts - Fuentes*/
+  --size: 18px;
+  --family-outfit: "Outfit", sans-serif;
+  --light: 300;
+  --regular: 400;
+  --semi: 600;
+}
+/*Attributtion classes*/
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
