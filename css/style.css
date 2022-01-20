@@ -34,7 +34,7 @@ html {
   color: hsl(228, 45%, 44%);
 }
 
-/**/
+/*Porject Css*/
 body {
   background-color: var(--Very-dark-blue-BG);
   margin: 0 auto;
@@ -45,9 +45,6 @@ body {
   body {
     margin: 0.5rem auto 0;
     height: 30rem;
-  }
-  .container {
-    width: 24rem;
   }
   .card-container {
     height: 20rem;
@@ -63,7 +60,7 @@ p {
 }
 
 .container {
-  padding: 1.5rem;
+  padding: 1.8rem;
   margin: 0 auto;
 }
 .card-container {
@@ -81,6 +78,7 @@ p {
   margin: 1.5rem 0 0 0;
   width: fit-content;
   width: -moz-fit-content;
+  font-weight: var(--semi);
 }
 .card-container h2:hover {
   color: var(--cyan);
@@ -89,7 +87,6 @@ p {
 .card-container p {
   color: var(--soft-blue);
   margin-bottom: 0.6rem;
-
   line-height: 2rem;
 }
 .eye {
@@ -158,8 +155,8 @@ p {
   font-size: 1rem;
 }
 .author-info img {
-  max-width: 40px;
-  height: 40px;
+  max-width: 35px;
+  height: 35px;
   border: solid 2px white;
   border-radius: 50%;
   margin: 0;
@@ -208,9 +205,10 @@ p {
   }
   .author-info p {
     font-size: 0.8rem;
+    margin-bottom: 0.5rem;
   }
   .author-info img {
-    max-width: 35px;
-    height: 35px;
+    max-width: 25px;
+    height: 25px;
   }
 }
